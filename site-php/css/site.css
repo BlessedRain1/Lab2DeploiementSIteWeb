@@ -1,0 +1,111 @@
+@font-face {
+   font-family: WeareDepraved;
+	src: url(fonts/WeareDepraved.ttf);
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+		
+body {
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+
+header {
+	background-color: #e6e6e6;
+	border-bottom: 1px dotted;
+	font-family: WeareDepraved;
+	font-size: 32pt;
+	padding: 20px 0;
+	text-shadow: 2px 2px 5px #7b7b7b;
+}
+
+main {
+	background-color: #ffffff;
+}
+
+footer {
+	background-color: #d0d0d0;
+	border-top: 1px dotted;
+	padding: 10px 0;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0px;
+	text-shadow: 2px 2px 3px #888888;
+}
+
+table {
+	margin: auto;	
+	text-align:left;	
+}
+
+table.withborder {
+	border-collapse: collapse;
+	border: 1px solid #000000;
+}
+
+table.withborder td {
+	border: 1px solid #000000;
+	padding: 2px 6px;
+}
+
+table#consommations {
+	box-shadow: 3px 3px 5px #888888;
+	text-align: right;
+}
+
+table#consommations td {
+	padding: 2px 5px;	
+}
+
+table#consommations td:first-child {
+	text-align: left;
+}
+
+table#consommations td.empty {
+	font-size: 16pt;
+	text-align: center;
+}
+
+table#consommations tr:nth-child(even){
+	background-color: #f0f0f0;
+}
+
+table#consommations tr:first-child {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+div#details-img {
+	text-align: center;
+}
+
+table#details {
+	border-collapse: collapse;
+	margin: auto;
+	width: 300px;
+}
+
+table#details td {
+	border-bottom: 1px dashed;
+	border-top: 1px dashed;
+	width: 50%;
+}
+
+table#details td:first-child {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 15px;
+}
+
+
